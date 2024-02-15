@@ -1,0 +1,76 @@
+/* Reset some default styles */
+body, h1, h2, p, img {
+    margin: 0;
+    padding: 0;
+}
+
+/* Overall layout styling */
+.parent {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 16px;
+    margin: 20px;
+    text-align: center;
+}
+
+/* Logo styling */
+.div1 {
+    grid-area: 1 / 1 / 2 / 2;
+    margin-right: 10px; /* Adjusted margin */
+}
+
+.div1 img {
+    width: 80px;
+    height: 80px;
+}
+
+/* Title styling */
+.div2 {
+    grid-area: 1 / 2 / 2 / 4;
+    margin-top: 20px;
+}
+
+/* Small cards styling */
+.row {
+    grid-area: 2 / 1 / 4 / 5;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px; /* Adjusted margin */
+}
+
+.col-md-3 {
+    width: 25%;
+}
+
+/* Panel styling */
+.panel {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.panel-heading {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.panel-body {
+    padding: 15px;
+}
+
+
+.div7 {
+    grid-area: 4 / 1 / 5 / 5;
+    width: 100%;
+    height: 500px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    justify-self: center; /* Center horizontally */
+    align-self: center; /* Center vertically */
+}
+
+.ml-lg-2{
+    margin-left: 165px;
+}
+
